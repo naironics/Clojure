@@ -4,6 +4,8 @@
 ;; java.lang.Long , by default it is Long in clojure and not int
 (type 13)
 
+;; to explicitly make a number int, the below yields java.lang.Integer
+(type (int 13))
 ;; java.lang.Double , by default it is double and not float
 (type 12.34)
 
